@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+            <header>Note Progression Generator</header>
+    </div>
+    <div>
+            <p>Please select your number of notes and key, then press the button below to generate your progression</p>
+            <h2>Number Of Notes</h2>
+            <input id="chordNum" type="number" min="3" max="10" value="3">
+            <h2>Key</h2>
+            <select name="key" id="key">
+                <option value="1">A</option>
+                <option value="2">A#</option>
+                <option value="3">B</option>
+                <option value="4">C</option>
+                <option value="5">C#</option>
+                <option value="6">D</option>
+                <option value="7">D#</option>
+                <option value="8">E</option>
+                <option value="9">F</option>
+                <option value="10">F#</option>
+                <option value="11">G</option>
+                <option value="12">G#</option>
+                <option value="13">Random</option>
+            </select>
+            <select name="scale" id="scale">
+                <option value="1">Major</option>
+                <option value="2">Minor</option>
+                <option value="3">Random</option>
+            </select>
+    </div>
+    <br>
+    <div>
+        <input type="button" id="calc-button" value="Click here to generate.">
+    </div>
+    <div>
+        <h2>Your Key</h2>
+        <h3 id="key-result"></h3>
+        <h2>Your Notes</h2>
+        <h3 id="note-result"></h3>
+        <br>
+    </div>
+    <script  src="./app.js"></script>
+
+</body>
+</html>

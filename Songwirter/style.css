@@ -1,0 +1,22 @@
+html {
+    background-image: url('./Resources/background.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+    color: white;
+}
+
+div {
+    background-color: rgba(0,0,0,.5);
+    width: 300px;
+    margin: auto;
+    width: 300px;
+}
+
+
+#calcButton{
+    width: 200px;
+    height: 75px;
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
